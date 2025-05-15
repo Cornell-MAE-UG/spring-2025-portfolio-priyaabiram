@@ -36,7 +36,19 @@ She is the innovator of internationally awarded technologies ‘Visualeyes’- a
 
 
 Priya served as a Cadet Lieutenant Colonel in the Civil Air Patrol, Auxiliary of the US Air Force, as the Cadet Commander leading 100+ cadets in leadership, STEM, military traditions, and emergency services. She enjoys pulling 6.5Gs as a private pilot. Priya enjoys inspiring young girls about their passions and sharing her perspective of our planet! 
+
 Link to all my projects: https://priyaabiram.godaddysites.com/
+
+## 📄 View My Resume
+
+<iframe src="https://docs.google.com/document/d/1JFM_ZKNionawO-ba4aYZ3Fu0W8wFCUeVxro6sU4Fy9o/preview" width="75%" height="600px" style="border:none;"></iframe>
+
+---
+
+## 🤖 View My Mechatronics Final Project
+
+<iframe src="https://cornell-mae-ug.github.io/spring-2025-portfolio-sgb1443/mechatronics/" width="75%" height="600px" style="border:none;"></iframe>
+
 
 Link to my engineering portfolio: [Engineering Portfolio ↗](https://priyaabiram.godaddysites.com/engineering-portfolio)
 
