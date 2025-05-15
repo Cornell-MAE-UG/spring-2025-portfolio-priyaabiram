@@ -6,8 +6,14 @@ title: <Priya Abiram>
 ## About Me
 
 
-<iframe src="https://drive.google.com/file/d/1TltV-24H376V-wQa9ykss8cXSDyaMQWB/preview" width="100%" height="600px" style="border:none;"></iframe>
-
+<iframe
+    src="https://drive.google.com/file/d/1TltV-24H376V-wQa9ykss8cXSDyaMQWB/preview"
+    width="100%"
+    height="600px"
+    style="border:none;"
+    allowfullscreen
+  ></iframe>
+</div> 
  
 Priya Abiram [@astro_priya_] is an aspiring astronaut and entrepreneur pursuing Aerospace Engineering at Cornell University. She hopes to land on Mars and develop spin-offs from space technology to improve the human condition on Earth.
 
