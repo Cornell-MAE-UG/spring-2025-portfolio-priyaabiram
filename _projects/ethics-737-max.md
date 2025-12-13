@@ -80,4 +80,4 @@ Through comprehensive ethical analysis, this case demonstrates the necessity of 
 
 ## Full Essay
 
-[Read the full Ethics Analysis (PDF)](/assets/ethics/Ethics_737_MAX_Essay.pdf)
+[Read the full Ethics Analysis (PDF)]({{ '/assets/ethics/Ethics_737_MAX_Essay.pdf' | relative_url }})

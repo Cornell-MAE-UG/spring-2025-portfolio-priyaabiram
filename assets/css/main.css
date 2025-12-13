@@ -1,34 +1,40 @@
----
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
---- 
-
-$color_scheme: '{{ site.color_scheme }}';
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 
-// Default to light theme
-$primary-color: #3a3f58;
-$background-color: #f7f8fa;
-$text-color: #333;
-
-// Set theme colors based on the color_scheme variable
-@if $color_scheme == 'dark' {
-  $primary-color: #333;
-  $background-color: #000;
-  $text-color: #fff;
-} @else if $color_scheme == 'aqua' {
-  $primary-color: #598392;
-  $background-color: #eff6e0;
-  $text-color: #01161e;
-} @else if $color_scheme == 'desert' {
-  $primary-color: #925959;
-  $background-color: #f6f1e0;
-  $text-color: #1e0101;
+:root {
+  --primary-color: #3a3f58;
+  --primary-hover-color: #2c3046;
+  --background-color: #f7f8fa;
+  --text-color: #333333;
 }
 
+body.theme-dark {
+  --primary-color: #333333;
+  --primary-hover-color: #1a1a1a;
+  --background-color: #000000;
+  --text-color: #ffffff;
+}
 
-.navbar, h1, h2, h3, h4, h5, h6 {
+body.theme-aqua {
+  --primary-color: #598392;
+  --primary-hover-color: #4f757f;
+  --background-color: #eff6e0;
+  --text-color: #01161e;
+}
+
+body.theme-desert {
+  --primary-color: #925959;
+  --primary-hover-color: #7a4848;
+  --background-color: #f6f1e0;
+  --text-color: #1e0101;
+}
+
+.navbar,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Merriweather', serif;
   font-weight: 700;
 }
@@ -38,18 +44,19 @@ h1 {
 }
 
 body {
-  font-family: "Open Sans", 'Montserrat', 'Helvetica Neue' sans-serif;
+  font-family: "Open Sans", 'Montserrat', 'Helvetica Neue', sans-serif;
   line-height: 1.6;
-  background-color: $background-color;
-  color: $text-color;
+  background-color: var(--background-color);
+  color: var(--text-color);
   margin: 0;
   padding: 0;
 }
 
-header, footer {
+header,
+footer {
   padding: 10px 5px;
-  background: $primary-color;
-  color: $background-color;
+  background: var(--primary-color);
+  color: var(--background-color);
 }
 
 .navbar-nav .nav-link {
@@ -61,12 +68,12 @@ header, footer {
 
 .navbar-nav .nav-link:hover {
   background-color: rgba(255, 255, 255, 0.1);
-  color: $background-color;
+  color: var(--background-color);
 }
 
 .navbar-nav .nav-link.active {
   background-color: rgba(255, 255, 255, 0.2);
-  color: $background-color;
+  color: var(--background-color);
 }
 
 header {
@@ -95,19 +102,19 @@ footer {
 }
 
 .card-title {
-  color: $primary-color;
+  color: var(--primary-color);
   font-weight: 700;
 }
 
 .btn-primary {
-  background-color: $primary-color;
-  border-color: $primary-color;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
   font-weight: 600;
 }
 
 .btn-primary:hover {
-  background-color: darken($primary-color, 10%);
-  border-color: darken($primary-color, 10%);
+  background-color: var(--primary-hover-color);
+  border-color: var(--primary-hover-color);
 }
 
 .project-item img {
@@ -124,7 +131,7 @@ footer {
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  color: $background-color;
+  color: var(--background-color);
   text-decoration: none;
   border-radius: 5px;
   transition: background 0.3s;
@@ -152,6 +159,8 @@ footer {
   margin: 20px 25px 25px 0;
   width: 150px;
   vertical-align: top;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .project-image {
@@ -159,31 +168,29 @@ footer {
   margin: 20px 25px 25px 0;
   max-width: 200px;
   vertical-align: top;
-}
-
-.inline-image {
-  max-width: 350px;
-  margin: 0px 25px 15px 25px;
-  vertical-align: top;
-
-  &-l {
-    @extend .inline-image;
-    float: left;
-    margin-left: 0;
-  }
-
-  &-r {
-    @extend .inline-image;
-    float: right;
-    margin-right: 0;
-  }
-}
-
-.profile-image, .project-image {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.inline-image {
+  max-width: 350px;
+  margin: 0 25px 15px 25px;
+  vertical-align: top;
+}
+
+.inline-image-l {
+  max-width: 350px;
+  margin: 0 25px 15px 0;
+  vertical-align: top;
+  float: left;
+}
+
+.inline-image-r {
+  max-width: 350px;
+  margin: 0 0 15px 25px;
+  vertical-align: top;
+  float: right;
+}
 
 .gallery-container {
   display: flex;
@@ -204,8 +211,8 @@ footer {
   overflow: hidden;
   text-align: center;
   transition: transform 0.3s ease;
-  max-width: 250px; 
-  max-height: 300px; 
+  max-width: 250px;
+  max-height: 300px;
 }
 
 .gallery-item img {
@@ -216,13 +223,12 @@ footer {
   object-position: center;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
 }
 
 .gallery-item p {
   margin: 13px 0;
-  font-size: .9rem;
-  color: $text-color;
+  font-size: 0.9rem;
+  color: var(--text-color);
 }
 
 .gallery-item a {
@@ -230,18 +236,13 @@ footer {
 }
 
 .gallery-item:hover {
-  transform: scale(1.05); 
-}
-
-.project-image {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
 }
 
 .back-arrow {
   display: inline-block;
   font-size: 1.1em;
-  color: #686d85; 
+  color: #686d85;
   text-decoration: none;
   margin-bottom: 1em;
   font-weight: bold;
@@ -249,6 +250,6 @@ footer {
 }
 
 .back-arrow:hover {
-  color: #3a3f58; 
+  color: #3a3f58;
   transform: translateX(-4px);
 }
