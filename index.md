@@ -38,8 +38,8 @@ Link to my engineering portfolio: [Engineering Portfolio ↗](https://priyaabira
 
 ## Coursework
 
-- [Ethics Portfolio: MAE 4300]({% link _projects/ethics-737-max.md %})
-- [Blade Design: MAE 4272]({% link _projects/fluids-final.md %})
+- [Ethics Portfolio: MAE 4300](_projects/ethics-737-max.html)
+- [Blade Design: MAE 4272](_projects/fluids-final.html)
 
 ---
 
