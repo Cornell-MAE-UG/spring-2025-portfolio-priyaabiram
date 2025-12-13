@@ -41,7 +41,7 @@ Link to my engineering portfolio: [Engineering Portfolio ↗](https://priyaabira
 
 
 ### Coursework
-- [Ethics Portfolio: MAE 4300](projects/MAE4300)
+- [Ethics Portfolio: MAE 4300](projects/ethics_project.html)
 - [Blade Design: MAE 4272](projects/MAE4272)
 
 ## 📄 View My Resume
