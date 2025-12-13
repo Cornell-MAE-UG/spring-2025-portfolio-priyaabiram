@@ -17,4 +17,4 @@ The case was evaluated using the systematic engineering ethics framework introdu
 This analysis highlighted the responsibility of engineers to prioritize public safety above cost, schedule, and organizational pressure, and reinforced the importance of transparency, independent oversight, and ethical courage in safety-critical systems.
 
 ## Full Essay
-[Read the full Ethics Analysis (PDF)](/assets/ethics/Ethics_737_MAX_Essay.pdf)
+[Read the full Ethics Analysis (PDF)]({{ site.baseurl }}/assets/ethics/Ethics_737_MAX_Essay.pdf)
