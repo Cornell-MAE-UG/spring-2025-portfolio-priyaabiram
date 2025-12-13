@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Priya Abiram
 description              : Priya Abiram - Projects and CV 
-baseurl                  : "/portfolio-sp25-spring-2025-portfolio-portolios" # Set this to "portfolio-<your-github-username>" 
+baseurl                  : "/spring-2025-portfolio-priyaabiram" # Set this to "portfolio-<your-github-username>" 
 url                      : "https://cornell-mae-ug.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 
 # Theme and Style
