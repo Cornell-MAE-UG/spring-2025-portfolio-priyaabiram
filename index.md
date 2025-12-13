@@ -1,4 +1,4 @@
----
+t---
 layout: default
 title: <Priya Abiram>
 ---
@@ -41,8 +41,8 @@ Link to my engineering portfolio: [Engineering Portfolio ↗](https://priyaabira
 
 
 ### Coursework
-- [Ethics Portfolio: MAE 4300](projects/ethics_project.html)
-- [Blade Design: MAE 4272](projects/MAE4272)
+- [Ethics Portfolio: MAE 4300](projects/ethics-737-max)
+- [Blade Design: MAE 4272](projects/fluids-final)
 
 ## 📄 View My Resume
 
