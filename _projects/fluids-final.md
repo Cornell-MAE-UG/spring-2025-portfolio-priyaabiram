@@ -14,4 +14,4 @@ The blade was designed using Blade Element Momentum Theory (BEMT) with NACA 4412
 The blade was fabricated via 3D printing and tested in a wind tunnel using a torque-brake system. Experimental results demonstrated a peak power output of 1.29 W, exceeding design predictions and validating the robustness of the modeling approach.
 
 ## Full Report
-[View Full Fluids Final Report (PDF)]({{ site.baseurl }}/assets/fluids/Fluids_Final_Report.pdf)
+[View Full Fluids Final Report (PDF)](/assets/fluids/Fluids_Final_Report.pdf)
