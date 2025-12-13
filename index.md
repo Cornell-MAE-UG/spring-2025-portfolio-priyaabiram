@@ -39,6 +39,9 @@ Priya served as a Cadet Lieutenant Colonel in the Civil Air Patrol, Auxiliary of
 
 Link to my engineering portfolio: [Engineering Portfolio ↗](https://priyaabiram.godaddysites.com/engineering-portfolio)
 
+<a href="projects/ethics-737-max.html">Boeing 737 MAX Ethics Analysis</a>
+   <a href="projects/fluids-blade-design.html">Wind Turbine Blade Design</a>
+
 ## 📄 View My Resume
 
 <iframe src="https://docs.google.com/document/d/1JFM_ZKNionawO-ba4aYZ3Fu0W8wFCUeVxro6sU4Fy9o/preview" width="75%" height="600px" style="border:none;"></iframe>
