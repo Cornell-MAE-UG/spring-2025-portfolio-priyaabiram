@@ -49,4 +49,14 @@ Link to my engineering portfolio: [Engineering Portfolio ↗](https://priyaabira
 
 <iframe src="https://cornell-mae-ug.github.io/spring-2025-portfolio-sgb1443/mechatronics/" width="75%" height="600px" style="border:none;"></iframe>
 
+## 🤖 View My Fluids and Heat Transfer Blade Design Project
+
+<iframe src="https://cornell-mae-ug.github.io/spring-2025-portfolio-sgb1443/mechatronics/" width="75%" height="600px" style="border:none;"></iframe>
+
+## 🤖 View Ethics in Engineering Final Portfolio
+
+<iframe src="https://cornell-mae-ug.github.io/spring-2025-portfolio-sgb1443/mechatronics/" width="75%" height="600px" style="border:none;"></iframe>
+
+
+
 
