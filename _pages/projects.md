@@ -6,17 +6,14 @@ permalink: /projects/
 
 <div class="container mt-5">
   <h1 class="text-center mb-4">My Projects</h1>
-  <div class="row">
+  <ul class="list-group">
     {% for project in site.projects %}
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">{{ project.title }}</h5>
-            <p class="card-text flex-grow-1">{{ project.content | strip_html | truncate: 100 }}</p>
-            <a href="{{ project.url | relative_url }}" class="btn btn-primary mt-auto">View Project</a>
-          </div>
-        </div>
-      </div>
+      <li class="list-group-item">
+        <a href="{{ project.url | relative_url }}" class="text-decoration-none">
+          <h5 class="mb-1">{{ project.title }}</h5>
+        </a>
+        <p class="mb-1">{{ project.content | strip_html | truncate: 150 }}</p>
+      </li>
     {% endfor %}
-  </div>
+  </ul>
 </div>
