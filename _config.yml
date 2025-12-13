@@ -13,11 +13,11 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Priya Abiram
 description              : Priya Abiram - Projects and CV 
-baseurl                  : "" # Set this to "portfolio-<your-github-username>" 
-url                      : "https://Cornell-MAE-UG.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/portfolio-sp25-spring-2025-portfolio-portolios" # Set this to "portfolio-<your-github-username>" 
+url                      : "https://cornell-mae-ug.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 
 # Theme and Style
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 color_scheme: light # light/default, dark, or aqua
 
 sass:
@@ -41,6 +41,4 @@ kramdown:
 # Plugins (previously gems:)
 plugins:
   - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-seo-tag
 
