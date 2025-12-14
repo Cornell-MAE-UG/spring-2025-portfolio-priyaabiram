@@ -151,80 +151,50 @@
             
             <div class="stats">
                 <div class="stat-box">
-                    <h4>346</h4>
-                    <p>Lives Lost</p>
+                    <img src="../assets/images/ethics-timeline.svg" alt="Timeline graphic showing MCAS milestones" style="width:70%; margin-bottom:0.5rem;">
+                    <p>Key milestones leading from MCAS introduction to the dual crashes.</p>
                 </div>
                 <div class="stat-box">
-                    <h4>2</h4>
-                    <p>Fatal Crashes</p>
+                    <img src="../assets/images/ethics-system-map.svg" alt="System map illustration" style="width:70%; margin-bottom:0.5rem;">
+                    <p>Single sensor input feeding MCAS with no redundancy.</p>
                 </div>
                 <div class="stat-box">
-                    <h4>MCAS</h4>
-                    <p>Central System Failure</p>
+                    <img src="../assets/images/ethics-canons.svg" alt="ASME ethics canons graphic" style="width:70%; margin-bottom:0.5rem;">
+                    <p>ASME canons highlighting the professional duty to protect the public.</p>
                 </div>
             </div>
-            
-            <p>At the center of the crisis was the Maneuvering Characteristics Augmentation System (MCAS), a flight control software added to the 737 MAX to counteract altered aerodynamic behavior caused by larger, repositioned engines.</p>
-            
-            <div class="highlight-box">
-                <p><strong>Critical Design Flaw:</strong> MCAS was designed to automatically command nose-down stabilizer trim when it detected a high angle of attack. The system relied on input from a single angle-of-attack sensor, creating a single point of failure. In both crashes, faulty sensor data triggered repeated MCAS activation, forcing the aircraft into unrecoverable dives.</p>
-            </div>
-            
-            <p>Pilots were unaware of MCAS's existence, had not been trained on its behavior, and were not provided sufficient information to diagnose or disable it in time. While MCAS was the proximate technical cause, the crashes reflected deeper systemic issues, including aggressive market competition with Airbus, organizational pressure to minimize pilot retraining costs, regulatory delegation of certification authority, and an erosion of safety-first engineering culture.</p>
-        </div>
         
-        <div class="content-card">
-            <h2>Design and Organizational Decisions</h2>
-            
-            <h3>Technical Failures</h3>
-            <p>From a technical standpoint, MCAS violated fundamental safety principles. A safety-critical flight control system was allowed to rely on a single sensor without redundancy, fail-safe logic, or clear pilot override protections. Alternative designs, such as dual-sensor validation or limited authority logic, were technically feasible and later implemented after the crashes, demonstrating that safer options existed during development.</p>
-            
-            <h3>Organizational Pressures</h3>
-            <p>Organizationally, Boeing prioritized schedule and cost competitiveness over conservative engineering judgment. The 737 MAX was marketed as requiring minimal pilot retraining to remain competitive, incentivizing design choices that concealed system complexity rather than addressing it transparently. Internal communications and investigative findings later revealed that safety concerns raised by engineers were frequently deprioritized or filtered through management layers under intense schedule pressure.</p>
-            
-            <h3>Regulatory Oversight</h3>
-            <p>Regulatory oversight further compounded the issue. Through the FAA's Organization Designation Authorization program, Boeing was permitted to self-certify significant portions of the aircraft, including aspects of MCAS. This delegation blurred the boundary between regulator and manufacturer, weakening independent scrutiny and allowing conflicts of interest to influence safety-critical approvals.</p>
-        </div>
-        
-        <div class="content-card">
-            <h2>Ethical Issues and Professional Responsibility</h2>
-            <p>The ethical failures of the 737 MAX program span individual, organizational, and institutional levels:</p>
-            
-            <ul>
-                <li><strong>Professional Level:</strong> Engineers faced conflicts between loyalty to their employer and their duty to protect public safety</li>
-                <li><strong>Organizational Level:</strong> Boeing's incentive structures and escalation culture discouraged dissent and normalized risk</li>
-                <li><strong>Regulatory Level:</strong> The FAA's reliance on manufacturer data undermined its role as an independent guardian of public welfare</li>
-            </ul>
-            
-            <div class="highlight-box">
-                <p><strong>ASME Code of Ethics Violations:</strong> The principle that engineers must hold paramount the safety, health, and welfare of the public outweighs obligations to employers, schedules, or profit. Decisions to approve MCAS with known single-point failures, withhold critical system information from pilots, and continue operating the aircraft after the first crash directly violated this principle.</p>
-            </div>
-            
-            <p>Transparency and accountability were also compromised. MCAS was omitted from pilot manuals, optional safety alerts were monetized rather than standardized, and public communications minimized the system's role even after early warning signs emerged. These actions eroded trust not only in Boeing, but in the broader aviation safety ecosystem.</p>
-        </div>
-        
-        <div class="content-card">
-            <h2>How the Crisis Could Have Been Prevented</h2>
-            <p>The Boeing 737 MAX crisis was preventable at multiple stages:</p>
-            
-            <h3>1. Design Stage</h3>
-            <p>MCAS should never have been approved with a single-sensor dependency. Redundant sensor logic, limited authority control, and explicit pilot awareness should have been baseline requirements for any system with autonomous control over flight surfaces.</p>
-            
-            <h3>2. Certification Stage</h3>
-            <p>Certification engineers and regulators could have halted approval until pilot training and documentation accurately reflected the aircraft's behavior. Simulator training and clear manuals would have significantly increased pilots' ability to respond effectively to abnormal conditions.</p>
-            
-            <h3>3. After First Crash</h3>
-            <p>After Lion Air Flight 610, Boeing and regulators could have grounded the fleet immediately. The decision to keep the aircraft flying despite mounting evidence of systemic failure represented a critical ethical failure. A precautionary grounding would have prioritized human life over reputational and financial concerns and almost certainly would have prevented the second crash.</p>
-            
-            <h3>4. Institutional Safeguards</h3>
-            <p>Stronger regulatory independence and organizational safeguards for whistleblowers and dissenting engineers could have disrupted the chain of decisions that allowed unsafe systems to persist.</p>
-        </div>
-        
-        <div class="content-card">
-            <h2>Broader Sociotechnical Implications</h2>
-            <p>The 737 MAX case illustrates how modern engineering failures rarely stem from isolated technical errors. Instead, they emerge from interactions between technology, organizations, regulations, incentives, and culture. Competitive pressure, regulatory capture, information silos, and normalization of deviance combined to produce outcomes that no single actor may have intended, yet many enabled.</p>
-            
-            <p>These patterns are not unique to aviation. They are increasingly relevant to autonomous systems, artificial intelligence, and other safety-critical technologies where software complexity, opacity, and institutional incentives can obscure risk until catastrophic failure occurs. The Boeing 737 MAX thus serves as a cautionary example for all engineering domains operating at scale.</p>
+        <div class="card-grid">
+            <article class="project-card">
+                <img src="../assets/images/ethics-system-map.svg" alt="diagram showing MCAS single sensor dependency" class="img-fluid rounded mb-3">
+                <h3>Design & Organizational Decisions</h3>
+                <p class="text-muted">MCAS relied on a single sensor, hidden from flight crews while pressure to avoid retraining shaped every decision.</p>
+                <ul>
+                    <li>Single point of failure violated redundancy principles</li>
+                    <li>Organizational pressure rewarded speed over transparency</li>
+                    <li>Delegated certification limited FAA ability to intervene</li>
+                </ul>
+            </article>
+            <article class="project-card">
+                <img src="../assets/images/ethics-canons.svg" alt="ASME ethics canons graphic" class="img-fluid rounded mb-3">
+                <h3>Ethical Issues & Professional Duty</h3>
+                <p class="text-muted">ASME Canon 1 was breached when public safety was subordinated to schedule and cost.</p>
+                <ul>
+                    <li>Engineers faced pressure to downplay risk signals</li>
+                    <li>Pilots received incomplete training and documentation</li>
+                    <li>Regulators depended on manufacturer data without independent review</li>
+                </ul>
+            </article>
+            <article class="project-card">
+                <img src="../assets/images/ethics-timeline.svg" alt="Timeline graphic showing MCAS milestones" class="img-fluid rounded mb-3">
+                <h3>Lessons Learned</h3>
+                <p class="text-muted">Preventable steps existed at every stage—from initial design to the decision not to ground the fleet after the first crash.</p>
+                <ul>
+                    <li>Enforce redundant sensors and envelope limits</li>
+                    <li>Honest pilot training and transparent manuals</li>
+                    <li>Precautionary grounding once systemic risk is evident</li>
+                </ul>
+            </article>
         </div>
         
         <div class="content-card">
@@ -238,18 +208,11 @@
             </div>
         </div>
         
-        <div class="content-card">
-            <h2>Conclusion</h2>
-            <p>The Boeing 737 MAX crisis was not the result of an unavoidable accident, but of a series of preventable ethical and engineering failures. By prioritizing cost, schedule, and competitive positioning over transparency, redundancy, and pilot empowerment, Boeing and its regulators allowed a flawed system to enter service with devastating consequences.</p>
-            
-            <p>Through comprehensive ethical analysis, this case demonstrates the necessity of embedding ethics deeply into engineering practice, organizational structures, and regulatory systems. The lessons of the 737 MAX extend far beyond aviation: they serve as a warning that when ethical responsibility erodes, technological progress can quickly become a source of harm rather than benefit.</p>
-        </div>
-        
         <a href="../" class="back-link">← Back to Portfolio</a>
     </div>
     
     <footer>
-        <p>© 2024 Priya Abiram | Cornell University - Aerospace Engineering</p>
+        <p>© 2025 Priya Abiram | Cornell University - Aerospace Engineering</p>
     </footer>
 </body>
 </html>

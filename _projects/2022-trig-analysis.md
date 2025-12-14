@@ -4,6 +4,7 @@ title: Rocket Stage Separation & Guided Parachute Recovery System
 description: Cornell ROcketry Team
 technologies: [Machine Shop, CAD, Research]
 image: /assets/images/Rocketry.png
+summary: Developed the stage separation hardware and guided RAM-air parachute recovery system for Cornell Rocketry launches.
 ---
 
 
@@ -20,5 +21,4 @@ Main stage separation at 1500 ft using black powder canisters: designed it on CA
 - Machine shop trained
 
 - High Power Rocketry Certified
-
 

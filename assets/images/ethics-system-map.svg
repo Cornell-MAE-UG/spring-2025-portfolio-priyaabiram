@@ -1,0 +1,30 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="system" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef7ff"/>
+      <stop offset="100%" stop-color="#cfe3ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#system)"/>
+  <g fill="#3a3f58">
+    <rect x="140" y="160" width="160" height="110" rx="18" fill="#fff"/>
+    <rect x="320" y="110" width="160" height="110" rx="18" fill="#fff"/>
+    <rect x="320" y="260" width="160" height="110" rx="18" fill="#fff"/>
+    <rect x="500" y="160" width="160" height="110" rx="18" fill="#fff"/>
+  </g>
+  <g stroke="#3a3f58" stroke-width="3" marker-end="url(#arrow)">
+    <line x1="300" y1="215" x2="320" y2="215"/>
+    <line x1="480" y1="165" x2="500" y2="165"/>
+    <line x1="400" y1="220" x2="400" y2="260"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#3a3f58"/>
+    </marker>
+  </defs>
+  <text x="220" y="215" text-anchor="middle" font-family="Montserrat" font-size="18" fill="#3a3f58">MCAS</text>
+  <text x="400" y="160" text-anchor="middle" font-family="Montserrat" font-size="18" fill="#3a3f58">AoA Sensor</text>
+  <text x="400" y="330" text-anchor="middle" font-family="Montserrat" font-size="18" fill="#3a3f58">Flight Control</text>
+  <text x="580" y="215" text-anchor="middle" font-family="Montserrat" font-size="18" fill="#3a3f58">Pilots</text>
+  <text x="50%" y="82%" text-anchor="middle" font-family="Montserrat" font-size="28" fill="#3a3f58">Single Sensor System Map</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="canons" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2f7ef"/>
+      <stop offset="100%" stop-color="#d8ecd0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#canons)"/>
+  <g fill="#274e13" font-family="Montserrat" font-size="20">
+    <rect x="160" y="140" width="160" height="200" rx="18" fill="#fff"/>
+    <rect x="320" y="140" width="160" height="200" rx="18" fill="#fff"/>
+    <rect x="480" y="140" width="160" height="200" rx="18" fill="#fff"/>
+    <text x="240" y="190" text-anchor="middle">Canon 1</text>
+    <text x="240" y="220" text-anchor="middle" font-size="16">Public welfare</text>
+    <text x="400" y="190" text-anchor="middle">Canon 2</text>
+    <text x="400" y="220" text-anchor="middle" font-size="16">Competence</text>
+    <text x="560" y="190" text-anchor="middle">Canon 3</text>
+    <text x="560" y="220" text-anchor="middle" font-size="16">Truthful reports</text>
+  </g>
+  <text x="50%" y="82%" text-anchor="middle" font-family="Montserrat" font-size="28" fill="#274e13">ASME Ethics Canons Spotlight</text>
+</svg>

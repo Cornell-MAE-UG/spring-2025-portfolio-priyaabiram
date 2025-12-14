@@ -4,6 +4,7 @@ title: Drop Test Vehicle
 description: Inversion Space Internship
 technologies: CAD, ANSYS
 image: /assets/images/DTV.png
+summary: Designed and tested a full-scale drop test vehicle to capture parachute inflation data for 15–1500 lb payloads.
 ---
 
 Skills: Extensive CAD design and drawings (NX), ANSYS Analysis, Load Calculations, Parachute Steady State Calculations, Advanced 3D Printing, Machining

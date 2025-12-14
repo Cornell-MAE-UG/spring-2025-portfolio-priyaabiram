@@ -4,6 +4,7 @@ title: Systems Engineering Product Structures, Standardization of Bill Of Materi
 description: Blue Origin Internship
 technologies: [NX, Machining, Technical Writing]
 image: /assets/images/Systems.png
+summary: Standardized New Glenn BOM structures and documentation to keep design, manufacturing, and integration data in sync.
 ---
 
 
@@ -14,4 +15,3 @@ Skills: Systems V-Diagram, eBOM aBOM mBOM, writing extensive technical documenta
 Create command media that describes structures of New Glenn launch vehicle’s As designed and manufacturing Bill of Materials (BOM) for each product of New Glenn: First Stage, Upper Stage, Payload Accommodation
 
 Provide recommendations for standardization of BOM methodologies to drive consistency across launch vehicle
-

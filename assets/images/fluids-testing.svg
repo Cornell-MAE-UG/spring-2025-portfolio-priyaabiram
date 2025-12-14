@@ -1,0 +1,15 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="testing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f1fbff"/>
+      <stop offset="100%" stop-color="#d1efff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#testing)"/>
+  <polyline points="120,360 200,220 300,260 420,150 520,200 640,120" fill="none" stroke="#3a3f58" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="200" cy="220" r="10" fill="#3a3f58"/>
+  <circle cx="420" cy="150" r="10" fill="#3a3f58"/>
+  <circle cx="640" cy="120" r="10" fill="#3a3f58"/>
+  <line x1="120" y1="380" x2="680" y2="380" stroke="#7f8ab2" stroke-width="2" stroke-dasharray="8 8"/>
+  <text x="50%" y="82%" text-anchor="middle" font-family="Montserrat, Arial" font-size="28" fill="#3a3f58">Wind Tunnel Power Curve</text>
+</svg>
